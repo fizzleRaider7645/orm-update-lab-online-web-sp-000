@@ -41,6 +41,7 @@ class Student
   end
   
   def self.create(name, grade)
+    new_students = Student.new(name. grade)
   end
   
   def update
