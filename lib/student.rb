@@ -46,7 +46,8 @@ class Student
     new_student
   end
   
-  def new_from_db
+  def self.new_from_db
+  end
   
   def update
     sql = <<-SQL
