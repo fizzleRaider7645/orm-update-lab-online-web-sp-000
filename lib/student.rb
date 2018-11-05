@@ -10,5 +10,5 @@ class Student
     @id = id
   end
   
-  
+  def self.create_tabe;
 end
