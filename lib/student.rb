@@ -40,7 +40,7 @@ class Student
     end
   end
   
-  def create
+  def self.create()
   end
   
   def update
