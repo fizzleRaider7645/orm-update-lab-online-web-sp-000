@@ -46,7 +46,7 @@ class Student
   end
   
   def self.new_from_db(row)
-    self.create(row[1], row[2])
+    new_student = self.create(row[1], row[2])
   end
   
   def update
