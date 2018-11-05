@@ -41,6 +41,7 @@ class Student
   end
   
   def create
+  end
   
   def update
     sql = <<-SQL
