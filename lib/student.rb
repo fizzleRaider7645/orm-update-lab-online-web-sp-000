@@ -43,7 +43,7 @@ class Student
   def update
     sql = <<-SQL
       UPDATE students
-      
+      SET name=
     SQL
   end
 end
