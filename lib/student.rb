@@ -27,7 +27,7 @@ class Student
     DB[:conn].execute(sql)
   end
   
-    def save
+  def save
     if self.id.nil?
       sql = <<-SQL
         INSERT INTO students (name, grade)
