@@ -40,6 +40,8 @@ class Student
     end
   end
   
+  def create
+  
   def update
     sql = <<-SQL
       UPDATE students SET name = ?, grade = ? WHERE id = ?
