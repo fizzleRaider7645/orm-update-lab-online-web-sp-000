@@ -57,7 +57,7 @@ class Student
     SQL
  
     student = DB[:conn].execute(sql, name)
-    p student
+    self.new_from_db(student[0]
   end
   
   def update
